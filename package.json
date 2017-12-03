@@ -1,7 +1,7 @@
 {
-  "name": "coinstop-splashsocket",
+  "name": "CoinStop-API",
   "version": "0.0.1",
-  "description": "A socketio server to retrieve the data for the mpos instances at coinstop.me and send it off to vue to be processed.",
+  "description": "An PHP-MPOS API data collection and caching daemon designed for coinstop.me",
   "main": "server.js",
   "scripts": {
     "test": "test",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/volxz/coinstop-splashsocket.git"
+    "url": "git+https://github.com/Volxz/CoinStop-API.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/volxz/coinstop-splashsocket/issues"
+    "url": "https://github.com/Volxz/CoinStop-API/issues"
   },
-  "homepage": "https://github.com/volxz/coinstop-splashsocket#readme",
+  "homepage": "https://github.com/Volxz/CoinStop-API/#readme",
   "dependencies": {
     "forever": "^0.15.3",
     "request": "^2.83.0",
